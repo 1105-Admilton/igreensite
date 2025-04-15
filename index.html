@@ -1,119 +1,50 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iGreen - Energia Solar</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      color: #333;
-    }
-    header {
-      background: url('https://images.unsplash.com/photo-1509395176047-4a66953fd231') no-repeat center center/cover;
-      color: white;
-      padding: 80px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5em;
-    }
-    .section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .section h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .plans {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .plan {
-      flex: 1 1 250px;
-      background: #f0f0f0;
-      padding: 20px;
-      border-radius: 8px;
-      text-align: center;
-    }
-    .plan i {
-      font-size: 2em;
-      margin-bottom: 10px;
-      color: #1e8449;
-    }
-    footer {
-      background: #1e8449;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    footer a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-size: 1.2em;
-    }
-    .about-img {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iGreen - Energia Solar por Assinatura</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Conta de luz mais barata sem investir nada</h1>
-    <p>Energia solar por assinatura com a iGreen</p>
+<body class="bg-green-50 text-gray-800">
+  <header class="bg-green-600 text-white p-6 shadow-md">
+    <h1 class="text-3xl font-bold">iGreen - Admilton Carvalho</h1>
+    <p class="text-lg">Conta de luz mais barata sem investir nada</p>
   </header>
 
-  <section class="section">
-    <h2>Sobre nós</h2>
-    <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed" alt="Fazenda solar" class="about-img">
-    <p>Meu nome é Admilton, sou licenciado da Igreen Energy. Nós produzimos energia limpa em fazendas sustentáveis e injetamos essa energia na rede distribuidora.</p>
+  <section class="p-6">
+    <h2 class="text-2xl font-semibold mb-4">Sobre nós</h2>
+    <p class="mb-4">Meu nome é Admilton, sou licenciado da Igreen Energy. Nós produzimos energia limpa em fazendas sustentáveis e injetamos essa energia na rede distribuidora.</p>
   </section>
 
-  <section class="section">
-    <h2>Nossos Planos</h2>
-    <div class="plans">
-      <div class="plan">
-        <i class="fas fa-leaf"></i>
-        <h3>Conexão Green</h3>
-        <p>A solução para clientes que buscam economia na conta de luz sem nenhum investimento.</p>
-      </div>
-      <div class="plan">
-        <i class="fas fa-bolt"></i>
-        <h3>Conexão Livre</h3>
-        <p>Para consumidores em média e alta tensão que buscam economia na conta de luz.</p>
-      </div>
-      <div class="plan">
-        <i class="fas fa-solar-panel"></i>
-        <h3>Conexão Placas</h3>
-        <p>Para clientes que buscam gerar a sua própria energia.</p>
-      </div>
-      <div class="plan">
-        <i class="fas fa-sun"></i>
-        <h3>Conexão Solar</h3>
-        <p>Para clientes que querem gerar energia sem investir.</p>
-      </div>
+  <section class="bg-white p-6 shadow-md rounded-lg m-4">
+    <h2 class="text-2xl font-semibold mb-4">Nossos Planos</h2>
+    <ul class="list-disc ml-6 space-y-2">
+      <li><strong>Conexão Green:</strong> Economia na conta de luz sem investimento.</li>
+      <li><strong>Conexão Livre:</strong> Economia para consumidores em média e alta tensão.</li>
+      <li><strong>Conexão Placas:</strong> Geração própria de energia.</li>
+      <li><strong>Conexão Solar:</strong> Geração própria sem investimento.</li>
+    </ul>
+  </section>
+
+  <section class="p-6">
+    <h2 class="text-2xl font-semibold mb-4">Imagens</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+      <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80" alt="Placas solares no telhado" class="rounded-2xl shadow-lg">
+      <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80" alt="Tecnologia e energia limpa" class="rounded-2xl shadow-lg">
     </div>
   </section>
 
-  <footer>
-    <p>Entre em contato:</p>
-    <a href="https://wa.me/5566996161731" target="_blank"><i class="fab fa-whatsapp"></i></a>
-    <a href="mailto:admilton.carvalho@outlook.com"><i class="fas fa-envelope"></i></a>
-    <a href="https://instagram.com/admilton.carvalho" target="_blank"><i class="fab fa-instagram"></i></a>
-    <p>&copy; 2025 iGreen - Admilton Carvalho</p>
+  <section class="bg-white p-6 shadow-md rounded-lg m-4">
+    <h2 class="text-2xl font-semibold mb-4">Contato</h2>
+    <p>WhatsApp: <a href="https://wa.me/5566996161731" class="text-green-600 font-medium">66996161731</a></p>
+    <p>Email: <a href="mailto:admilton.carvalho@outlook.com" class="text-green-600 font-medium">admilton.carvalho@outlook.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/admilton.carvalho" class="text-green-600 font-medium">@admilton.carvalho</a></p>
+  </section>
+
+  <footer class="bg-green-600 text-white text-center p-4 mt-8">
+    © 2025 iGreen - Todos os direitos reservados.
   </footer>
 </body>
 </html>
